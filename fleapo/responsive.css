@@ -1,0 +1,575 @@
+@media (min-width: 1920px) {
+    .back_lower {
+        width: 1920px;
+    }
+    .slider_back {
+        left: 30%;
+    }
+    .flickity-prev-next-button.next {
+        right: 18%;
+    }
+    .flickity-prev-next-button.previous {
+        left: 18%;
+    }
+    .from-concept-to {
+        width: 300px;
+    }
+
+    .what_img_right {
+        width: 304px;
+        object-fit: cover;
+        height: 292px;
+    }
+
+    .from-concept-to {
+        font-size: 18px;
+    }
+    .web-design {
+        font-size: 25px;
+    }
+    .frame-icon {
+        height: 30px;
+    }
+    .pricing_hp {
+        font-size: 18px;
+    }
+    .take_look {
+        font-size: 18px;
+    }
+    .unlimit ul li {
+        font-size: 18px;
+    }
+    .price_arrow {
+        top: 10px;
+        width: 45px;
+    }
+    .span_mo {
+        font-size: 25px;
+    }
+    .unlimited {
+        font-size: 35px;
+    }
+    .input_e {
+        margin: 10px 0px;    
+    }
+    .btn_f {
+        font-size: 18px;
+    }
+    .footer_left p {
+        font-size: 16px;
+    }
+    .low_menu ul li {
+        font-size: 21px;
+    }
+    .top_lower {
+        top: 1%;
+        left: 20%;
+        transform: rotate(4deg);
+    }
+}
+
+@media (min-width: 1536px) {
+    .back_lower {
+        width: 1536px;
+    }
+    .contact_top {
+        top: -45px;
+        right: -80px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header_menu ul {
+        padding: 20px;
+    }
+    .sign_up {
+        padding: 12px 22px;
+    }
+    .header_menu ul {
+        padding: 12px;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+
+    .faq_img {
+        top: -175px;
+    }
+    .header_menu li {
+        margin: 0px 10px;
+    }
+
+    .header_right ul {
+        padding: 16px;
+    }
+    .sign_up {
+        padding: 9px 8px;
+        font-size: 14px;
+    }
+    .header_menu ul {
+        padding: 10px 10px;
+        height: 45px;
+    }
+    .header {
+        margin: 0px 52px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    /* @media (min-width: 768px) { */
+
+        .header .logo img {
+            width: 150px;
+            height: 32px;
+        }
+
+        .sign_in_btn {
+            margin-right: 10px;
+        }
+
+        .sign_in {
+            font-size: 14px;
+        }
+
+        .header_right ul {
+            padding: 10px;
+        }
+        .sign_up {
+            padding: 5px 8px;
+            font-size: 14px;
+        }
+
+        .header_menu ul {
+            padding: 12px 12px;
+            height: 45px;
+        }
+
+        .header_menu li {
+            margin: 0px 10px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .header {
+            margin: 0px 26px;
+        }
+    
+    .gallery-cell img {
+        width: 100%;
+    }
+    .banner h2 {
+        font-size: 35px;
+    }
+    .getinbtn {
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+    .top_lower {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+    }
+    .wrapper_margin {
+        margin: 0px 52px;
+    }
+    .rectangle-div {
+        row-gap: 10px;
+        padding: 10px;
+    }
+    .banner {
+        margin: 80px 0px 100px;
+    }
+    .what_header {
+        font-size: 40px;
+    }
+    .web-design {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .grid_what_right {
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .from-concept-to {
+        width: 182px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .two_row {
+        grid-column: 1;
+        grid-row: 2 / span 2;
+    }
+    .item4 {
+        grid-column: 2;
+        grid-row: 2 / span 2;
+    }
+    .what_left_img {
+        
+        display: contents;
+    }
+    .what_img_right{
+        width: 100%;
+    }
+    .what_left_img img {
+        width: 100%;
+    }
+    .slider_h2 {
+        font-size: 40px;
+    }
+    .slider_back img {
+        width: 100%;
+    }
+    .slider_back {
+        top: -100px;
+        left: -3%;
+    }
+    .pricing {
+        margin: 52px;
+    }
+    .unlimit_style {
+        margin: 30px 20px 0px;
+    }
+    .month {
+        padding: 15px 10px;
+    }
+    .three_month {
+        font-size: 40px;
+    }
+    .price_arrow {
+        top: 12px;
+    }
+    .pricing_left {
+        justify-content: left;
+    }
+    .pricing_btn_f {
+        width: 100%;
+        height: 40px;
+    }
+    .price_lower {
+        font-size: 32px;
+    }
+    .frequently_ask {
+        margin: 80px 0px 80px;
+    }
+    .faq_img_back {
+        width: 100%;
+    }
+    .faq_img {
+        top: -60px;
+    }
+    .faq_text_left {
+        font-size: 40px;
+        justify-content: right;
+        margin: 80px 0px;
+    }
+    .wrapper {
+        padding: 0px;
+    }
+    .form_h {
+        font-size: 40px;
+    }
+    .flickity-viewport {
+        height: fit-content;
+    }
+    .contact_top {
+        z-index: -98;
+    }
+    .input_e {
+        margin: 10px 0px;
+        width: 100%;
+        height: 100%;
+        padding: 15px 10px;
+    }
+    .input_m {
+        width: 100%;
+        height: 100%;
+        padding: 15px 10px;
+    }
+    .contact_top {
+        top: -102px;
+        right: -120px;
+        width: 40%;
+    }
+    .contact_bottom {
+        left: -112px;
+        width: 70%;
+    }
+    .footer {
+        padding: 40px 26px 40px;
+        margin: 0px 52px;
+    }
+    .footer-r_inner {
+        row-gap: 10px;
+        margin-top: 15px;
+    }
+    .low_menu ul li {
+        margin-right: 12px;
+    }
+    .footer_logo img {
+        width: 50%;
+    }
+    .love_div {
+        font-size: 12px;
+    }
+    .low_reviews_row {
+        padding: 15px;
+    }
+    .low_reviews {
+        margin: 40px;
+    }
+    .footer_p {
+        margin: 0px;
+        font-size: 14px;
+    }
+    .footer_left {
+        row-gap: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+
+    .faq_img {
+        top: -63px;
+    }
+    .contact_top {
+        top: -75px;
+        right: -15px;
+    }
+    #wrapper {
+        padding: 0px 0px 60px;
+        margin: 0 auto;
+    }
+    .header {
+        display: none;
+    }
+
+    .banner h2 {
+        font-size: 25px;
+    }
+    .top_lower {
+        top: 1%;
+        left: -2%;
+        transform: rotate(350deg);
+        width: 450px;
+    }
+    .banner {
+        margin: 60px 0px 70px;
+    }
+    .getinbtn {
+        padding: 10px 25px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .wrapper_margin {
+        margin: 0px 20px;
+    }
+    .what_header {
+        font-size: 35px;
+    }
+    .web-design {
+        font-size: 14px;
+    }
+    .from-concept-to {
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .grid_what_right {
+        grid-template-columns: auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .gallery-cell img {
+        width: 100%;
+    }
+    .two_row {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .item4 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .rectangle-div {
+        row-gap: 10px;
+        padding: 10px;
+    }
+    .what_img_right {
+        width: 100%;
+    }
+    .what_left_img {
+        text-align: center;
+        margin: 0px;
+    }
+    .slider_h2 {
+        font-size: 25px;
+    }
+    .slider_p {
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+    .slide {
+        margin: 50px 0px;
+    }
+    .flickity-prev-next-button {
+        top: -12%;
+        width: 30px;
+        height: 30px;
+    }
+    .flickity-prev-next-button .flickity-button-icon {
+        left: 25%;
+        top: 5%;
+        width: 40%;
+    }
+    .low_reviews_row {
+        padding: 10px;
+    }
+    .reviews_col {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+    .low_reviews {
+        margin: 50px 0px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .slider_back img {
+        width: 100%;
+    }
+    .slider_back {
+        top: -10px;
+        left: 0%;
+    }
+    .col-5 , .col-6 , .col-7{
+        width: 100%;
+    }
+    .pricing_left {
+        row-gap: 15px;
+    }
+    .pricing_h {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .price_lower {
+        font-size: 25px;
+    }
+    .pricing_btn_f {
+        width: 100%;
+        height: 55px;
+    }
+    .pricing {
+        margin: 40px 0px;
+    }
+    .price_inner {
+        flex-direction: column;
+    }
+    
+    .pricing_left {
+        row-gap: 10px;
+        justify-content: normal;
+    }
+    .unlimit_style {
+        margin: 0px 0px 20px;
+    }
+    .price_low {
+        padding: 37px 5px 29px;
+    }
+    .month {
+        padding: 28px 15px;
+    }
+    .price_arrow {
+        top: 12px;
+    }
+    .faq_img_back {
+        width: 70%;
+    }
+    .frequently_ask {
+        margin: 100px 0px 60px;
+    }
+    .faq_img {
+        top: -10px;
+    }
+    .wrapper {
+        padding: 0 0px;
+    }
+    .faq_text_left {
+        font-size: 50px;
+    }
+    .wrapper label span {
+        font-size: 16px;
+    }
+    .parent-tab .content p, .child-tab .sub-content p {
+        padding: 0px 15px;
+        font-size: 14px;
+    }
+    .contact_us {
+        margin: 52px 25px;
+    }
+    .input_e {
+        margin: 6px 0px;
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+    }
+    .input_m {
+        width: 100%;
+        height: 100%;
+        padding: 15px 10px;
+    }
+    .form_h {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .contact_top {
+        top: -17px;
+        right: 0px;
+        width: 40%;
+    }
+    .contact_bottom {
+        left: -112px;
+        width: 70%;
+    }
+    .contact_bottom {
+        left: -25px;
+        bottom: 47px;
+        width: 70%;
+    }
+    .footer {
+        padding: 25px 20px 25px;
+        margin: 0px 25px;
+    }
+    .love_div {
+        font-size: 12px;
+    }
+    .footer-r_inner {
+        row-gap: 15px;
+        margin-top: 20px;
+    }
+    .low_menu ul {
+        display: contents;
+        list-style: none;
+        float: left;
+    }
+    .low_menu ul li {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .socail_media ul {
+        list-style: none;
+        float: left;
+        padding: 0px;
+    }
+    .mobile_menu {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+
+}

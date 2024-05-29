@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fleapo/fleapo.css">
+    <link rel="stylesheet" href="fleapo/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" />
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+    <script src="fleapo/script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" />
+    <script>
+       // Show/Hide top navbar
+
+var ScrollY1 = window.pageYOffset;
+window.onscroll = function () {
+  var ScrollY2 = window.pageYOffset;
+  if (ScrollY1 > ScrollY2) {
+    document.getElementById("topbar").style.top = "0";
+  } else {
+    document.getElementById("topbar").style.top = "-60px";
+  }
+  ScrollY1 = ScrollY2;
+};
+
+            </script>
+  
+  
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Header -->
+
+        <div class="header">
+            <div class="row header_flex">
+                <div class="col-3 logo">
+                    <img src="img/Logo.png" alt="">
+                </div>
+                <div class="col-6 header_menu">
+                    <ul class="">
+                        <li class="actived">Home</li>
+                        <li>About</li>
+                        <li>How Its Works</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="col-3 header_right">
+                    <ul>
+                        <li class="sign_in_btn">
+                            <button class="sign_in">Sign In</button>
+                        </li>
+                        <li>
+                            <button class="sign_up">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- header end -->
+
+        <!-- mobile Menu -->
+        <div class="mobile_menu">
+            <div>
+                <img src="img/Logo.png" class="mobile_logo">
+            </div>
+            <div>
+                <input type="checkbox" id="openSideMenu" class="openSideMenu">
+                <label for="openSideMenu" class="menuIconToggle">
+                  <div class="hamb-line dia p-1"></div>
+                  <div class="hamb-line hor"></div>
+                  <div class="hamb-line dia p-2"></div>
+                </label>
+                <nav>
+                  <ol>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Its Work</a></li>
+                    <li><a href="#">Services</a></li>
+                  </ol>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Mobile Menu End -->
+
+        <!-- banner -->
+        
+        <div class="banner">
+             <h2>Awesome UI Dark <br>
+                Template for <br>
+                Webflow Agency
+            </h2>
+            <button class="getinbtn">Get In Touch</button>
+        </div>
+         
+        <!-- banner end -->
+
+       <div class="di wrapper_margin">
+        <div class="what_header">
+            What We do
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="grid_what_right">
+                    <div class="grid-item">
+                        <div class="rectangle-div">
+                            <img class="frame-icon" alt="" src="img/webdesign.svg">
+                            <div class="web-design">Web Design</div>
+                            <div class="from-concept-to">From concept to launch, we create stunning, 
+                                user-centric websites that elevate your brand and engage your audience.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="rectangle-div">
+                            <img class="frame-icon" alt="" src="img/ui design.png">
+                            <div class="web-design">Web Design</div>
+                            <div class="from-concept-to">From concept to launch, we create stunning, 
+                                user-centric websites that elevate your brand and engage your audience.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="rectangle-div">
+                            <img class="frame-icon" alt="" src="img/responsive design.png">
+                            <div class="web-design">Responsive Design</div>
+                            <div class="from-concept-to">From concept to launch, we create stunning, 
+                                user-centric websites that elevate your brand and engage your audience.
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="grid-item two_row">
+                        <div class="rectangle-div">
+                            <img class="frame-icon" alt="" src="img/ecommerce.png">
+                            <div class="web-design">E-Commerce Solutions</div>
+                            <div class="from-concept-to">From concept to launch, we create stunning, 
+                                user-centric websites that elevate your brand and engage your audience.
+                            </div>
+                            <div>
+                                <img src="img/what_img_right.png" class="what_img_right" alt="">
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="grid-item item4">
+                        <div class="row">
+                        <div class="rectangle-div col-7">
+                            <img class="frame-icon" alt="" src="img/webflow.png">
+                            <div class="web-design">Webflow</div>
+                            <div class="from-concept-to">From concept to launch, we create stunning, 
+                                user-centric websites that elevate your brand and engage your audience.
+                            </div>
+                            
+                        </div>
+                        <div class="what_left_img col-5">
+                            <img src="img/webflo.png" alt="">
+                            <!-- <img src="img/what_left_btn.svg" alt=""> -->
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid-item">
+                        <div class="rectangle-div">
+                            <img class="frame-icon" alt="" src="img/custom developement.png">
+                            <div class="web-design">Custom Development</div>
+                            <div class="from-concept-to">From concept to launch, we create stunning, 
+                                user-centric websites that elevate your brand and engage your audience.
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+       </div>
+
+       <!-- Slider -->
+       
+       <div class="slide">
+        <div class="slider_back">
+            <img src="img/cb.png" alt="">
+        </div>
+                <div class="slider_check">
+                    <div class="slider_h2">Check Our Work</div>
+                    <div class="slider_p">
+                        Take a look at some of our recent projects to see how we've helped 
+                        businesses like yours succeed online.
+                    </div>
+                    <div class="gallery js-flickity"
+                    data-flickity-options='{ "wrapAround": true }'>
+                        <div class="gallery-cell">
+                            <img src="img/Rectangle c1.png" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                            <img src="img/Rectangle c2.png" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                            <img src="img/Rectangle c3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+        <div>
+        <div class="low_reviews">
+          <div class="row low_reviews_row">
+            <div class="col-4 reviews_col">
+                <div>
+                    <img src="img/Group 13679.png" alt="">
+                </div>
+                <div class="reviews_star">
+                    <img src="img/5.0 Based on 145 Reviews.png" alt="">
+                    <img src="img/Group 13681.png" alt="">
+                </div>
+            </div>
+          </div>   
+        </div>
+        </div>
+        
+
+    </div>
+            
+           <!-- Slidar End -->
+
+
+
+        <!-- pricing section -->
+        
+        <div class="pricing">
+            <div class="row price_inner">
+                <div class="col-5 pricing_left">
+                    <div >
+                        <div class="pricing_h">
+                          Pricing
+                        </div>
+                       <div class="pricing_hp">
+                            Take a look at some of our recent </br>
+                            projects to see how we've helped  </br>
+                            businesses like yours succeed online.
+                        </div>
+                    </div>
+                    <div class="price_low">
+                      <div class="price_lower">
+                        Let's Schedule</br>
+                        a Meeting
+                      </div>  
+                      <div class="price_lower_btn">
+                        <button type="submit" value="Submit" class="pricing_btn_f">Schedule a Meeting</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6 pricing_right">
+                    <div class="unlimit_style">
+                      <div class="unlimited">
+                          Unlimited Services
+                      </div>
+                      <div class="take_look">
+                        Take a look at some of our recent projects to see how <br>
+                        we've helped businesses like yours succeed online.
+                      </div>
+                      <div class="unlimit">
+                        <div>
+                            <ul>
+                                <li>Unlimited requests</li>
+                                <li>Unlimited requests</li>
+                                <li>Unlimited requests</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Unlimited requests</li>
+                                <li>Unlimited requests</li>
+                                <li>Unlimited requests</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="month">
+                        <div class="three_month">$3,250<span class="span_mo">/mo</span>
+                            <img src="img/pricing arroww.png" class="price_arrow">
+                        </div>
+                    </div>
+                      <div>
+                        
+                      </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- Price End -->
+
+
+       
+
+       <!-- Fequently Ask Question -->
+       
+       <div class="frequently_ask">
+        
+        <div class="row">
+            <div class="col-5 faq_back">
+                <div class="faq_img">
+                    <img src="img/faq.svg"  class="faq_img_back">
+                 </div>   
+                <div class="faq_text_left">
+                    Frequently <br>
+                    Asked <br>
+                    Questions
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="wrapper">
+    <!-- Accordion Heading One -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-1" checked>
+      <label for="tab-1">
+        <span> How can I contact Inkyy Team?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.</p>
+      </div>
+    </div>
+    <!-- Accordion Heading Two -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-2">
+      <label for="tab-2">
+        <span>What services do you offer?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+    <!-- Accordion Heading Three -->
+    <div class="parent-tab tab-3">
+      <input type="radio" name="tab" id="tab-3">
+      <label for="tab-3" class="tab-3">
+        <span>Do you provide website maintenance services?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- Sub Heading One -->
+        <div class="child-tab">
+          <input type="checkbox" name="sub-tab" id="tab-4">
+          <label for="tab-4">
+            <span>Sub Heading One</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="sub-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+          </div>
+        </div>
+        <!-- Sub Heading Two -->
+        <div class="child-tab">
+          <input type="checkbox" name="sub-tab" id="tab-5">
+          <label for="tab-5">
+            <span> How long does it take to design and develop a website?</span>
+            <div class="icon"><i class="fas fa-plus"></i></div>
+          </label>
+          <div class="sub-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Accordion Heading Four -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-6">
+      <label for="tab-6">
+        <span>Do you require a deposit for projects?</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+  </div>
+            </div>
+        </div>
+       </div>
+
+       <!-- End Fequently Ask Question -->
+
+        <!-- contact section -->
+
+        <div class="contact_us">
+            <div class="contact_img">
+                
+                <img src="img/contact_img.svg" alt="" class="contact_top">
+                <img src="img/contact_b.svg" alt="" class="contact_bottom">
+            </div>
+            
+            <div class="row contact_section">
+                <div>
+                    <!-- <img src="img/94917596435e18d80f8a5d9a65db686e.png" alt="" class="con_top_img">
+                    <img src="img/contact_b.svg" alt="" class="con_bo_img"> -->
+                    <p class="form_h">Let's Get in Touch</p>
+                    <form action="">
+                        <label class="label_s">email</label></br>
+                        <input type="email" placeholder="example@email.com" class="input_e"> </br>
+                        <label class="label_s">name</label></br>
+                        <input type="text" placeholder="full name" class="input_e"> </br>
+                        <label class="label_s">message</label> </br> 
+                        <textarea rows="4" cols="50" name="comment" class="input_m">
+                            write your message</textarea> </br>
+                            <button type="submit" value="Submit" class="input_e btn_f">Get In Touch</button>    
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        
+        <div class="footer">
+            <div class="row">
+                <div class="col-5 footer_left">
+                    <div class="footer_logo">
+                        <img src="img/Logo.png" alt="">
+                    </div>
+                    <div>
+                        <!-- <p>
+                            Ready to elevate your online presence? </br>
+                            Contact us today to discuss your project and </br>
+                            discover how we can bring your vision to life.
+                        </p> -->
+                        <p class="footer_p">
+                            Ready to elevate your online presence?
+                            Contact us today to discuss your project and
+                            discover how we can bring your vision to life.
+                        </p>
+                    </div>
+                    <div class="love_div">
+                        <img src="img/love.png" alt="">
+                        <p>Made with love powered by inkyy.com</p>
+                    </div>
+                </div>
+                <div class="col-7 footer_right">
+                    <div class="footer-r_inner">
+                        <div class="low_menu">
+                            <ul>
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>How it Works</li>
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                        <div class="socail_media">
+                            <ul>
+                                <li><img src="img/instagram.png" alt=""></li>
+                                <li><img src="img/linkedln.png" alt=""></li>
+                                <li><img src="img/music.png" alt=""></li>
+                                <li><img src="img/ball.png" alt=""></li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div>
+            <!-- <img src="img/Mask group top.png" alt="" class="top_lower"> -->
+            <img src="img/Mask group.svg" alt="" class="top_lower">
+
+
+            <img src="img/Grouplow.svg" alt="" class="back_lower">
+        </div>
+       
+    </div>
+
+
+
+  
+
+  
+</body>
+</html>
